@@ -43,7 +43,7 @@ class ExperimentConfig:
     n_random_directions: int = 200
 
     # Autointerp
-    autointerp_model: str = "claude-sonnet-4-20250514"
+    autointerp_model: str = "claude-haiku-4-5-20251001"
     autointerp_top_k: int = 40
     autointerp_n_explain: int = 10
     autointerp_n_negatives: int = 10
