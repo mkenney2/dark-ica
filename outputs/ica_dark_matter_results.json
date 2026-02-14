@@ -1,0 +1,43 @@
+{
+  "model": "gpt2-small",
+  "sae": "gpt2-small-res-jb",
+  "sae_id": "blocks.6.hook_resid_pre",
+  "layer": 6,
+  "tokens_analyzed": 995680,
+  "d_model": 768,
+  "n_ica_components": 100,
+  "variance_analysis": {
+    "total_activation_variance": 3481.0234375,
+    "residual_variance": 440.4305419921875,
+    "fraction_unexplained_by_sae": 0.12652328610420227
+  },
+  "residual_kurtosis": {
+    "mean": 0.8540019392967224,
+    "std": 0.1802775263786316,
+    "min": 0.27600812911987305,
+    "max": 3.089024066925049
+  },
+  "pca": {
+    "n_components_90pct_variance": 101,
+    "n_components_95pct_variance": 101,
+    "n_components_99pct_variance": 101
+  },
+  "ica": {
+    "n_components": 100,
+    "iterations_to_converge": 105,
+    "fraction_residual_variance_explained": 0.2593446969985962
+  },
+  "ica_sae_similarity": {
+    "mean_max_cosine": 0.4148479700088501,
+    "median_max_cosine": 0.41455501317977905,
+    "high_similarity_count_gt_0.8": 1,
+    "medium_similarity_count_0.3_to_0.8": 80,
+    "low_similarity_count_lt_0.3": 19
+  },
+  "kurtosis_comparison": {
+    "ica_component_kurtosis_mean": 1.286929965019226,
+    "ica_component_kurtosis_median": 0.9775753021240234,
+    "sae_feature_kurtosis_mean": 3088.4945366188476,
+    "sae_feature_kurtosis_median": 1909.1141939451747
+  }
+}

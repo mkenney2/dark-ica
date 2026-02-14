@@ -1,0 +1,1106 @@
+{
+  "ica": {
+    "0": {
+      "label": "Arabic names/words",
+      "explanation": "This direction activates strongly on Arabic names and words, particularly those containing Arabic linguistic elements like 'az', 'rh', 'au' sounds that are common in Arabic transliterations.",
+      "confidence": 4,
+      "max_cos_sim": 0.46504998207092285
+    },
+    "1": {
+      "label": "Privacy and civil rights",
+      "explanation": "This direction activates on words related to privacy protections, civil liberties, and government accountability, particularly in contexts discussing data privacy, civil asset forfeiture, abortion rights, and access to information.",
+      "confidence": 4,
+      "max_cos_sim": 0.3491874635219574
+    },
+    "2": {
+      "label": "Political policy/action terms",
+      "explanation": "This direction activates on words referring to specific political policies, executive actions, or governmental procedures, particularly those that are controversial or significant (ban, bill, impeachment, sequester, order, confirmation).",
+      "confidence": 4,
+      "max_cos_sim": 0.46511003375053406
+    },
+    "3": {
+      "label": "Public controversy/outrage",
+      "explanation": "This direction activates for words describing public disputes, scandals, or situations that provoke strong negative reactions from communities or society.",
+      "confidence": 5,
+      "max_cos_sim": 0.273082435131073
+    },
+    "4": {
+      "label": "Past participle verbs",
+      "explanation": "This direction activates on past participle forms of verbs, particularly those used in passive voice constructions or as adjectives describing completed actions or states.",
+      "confidence": 4,
+      "max_cos_sim": 0.43645885586738586
+    },
+    "5": {
+      "label": "Interrupted or fragmented text",
+      "explanation": "This direction activates on tokens that appear in contexts where text has been cut off, interrupted, or where there are abrupt transitions between different topics or sources.",
+      "confidence": 4,
+      "max_cos_sim": 0.2800649106502533
+    },
+    "6": {
+      "label": "Political/public figures",
+      "explanation": "This direction activates when referring to notable political figures, candidates, leaders, or public personalities in news contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.3023204803466797
+    },
+    "7": {
+      "label": "Descriptive adjectives",
+      "explanation": "This direction activates on adjectives that describe visual, temporal, or qualitative properties of nouns, including lighting (fluorescent, neon, LED), temporal aspects (intermittent, hourly, rapid), and other descriptive qualities (heated, menstrual).",
+      "confidence": 4,
+      "max_cos_sim": 0.28087323904037476
+    },
+    "8": {
+      "label": "Technical metadata markers",
+      "explanation": "This direction activates on technical formatting elements like email headers, file metadata, transcript disclaimers, and other structural markup that appears in digitized or web-scraped content.",
+      "confidence": 4,
+      "max_cos_sim": 0.42122113704681396
+    },
+    "9": {
+      "label": "Hyphenated compound words",
+      "explanation": "This direction activates on tokens that are part of hyphenated compound words or names, particularly the second part after a hyphen.",
+      "confidence": 4,
+      "max_cos_sim": 0.4682503640651703
+    },
+    "10": {
+      "label": "Geographic/temporal modifiers",
+      "explanation": "This direction activates on words that modify or specify locations (Central, southeast, San, North) and time periods (late, mid, last), functioning as descriptive qualifiers that provide spatial or temporal context.",
+      "confidence": 4,
+      "max_cos_sim": 0.4639497399330139
+    },
+    "11": {
+      "label": "Temporal/habitual adverbs",
+      "explanation": "This direction activates on adverbs that describe timing, frequency, or habitual patterns of behavior, such as 'traditionally', 'initially', 'regularly', and similar temporal modifiers.",
+      "confidence": 4,
+      "max_cos_sim": 0.37640732526779175
+    },
+    "12": {
+      "label": "Present participle verbs",
+      "explanation": "This direction activates on present participle forms of verbs (ending in -ing) or gerunds that describe ongoing actions or states.",
+      "confidence": 4,
+      "max_cos_sim": 0.30537453293800354
+    },
+    "13": {
+      "label": "Organizational acronyms",
+      "explanation": "This direction activates strongly when encountering organizational acronyms or formal names of institutions, particularly those with descriptive words like 'Arab', 'Space', 'Super', or 'of' that are part of official organizational titles.",
+      "confidence": 4,
+      "max_cos_sim": 0.5380615592002869
+    },
+    "14": {
+      "label": "Academic/Professional Status",
+      "explanation": "This direction activates for words describing academic levels (freshman, junior, undergraduate), professional roles (trainee, adjunct), or status descriptors (Democratic, name) that classify or categorize people within institutional hierarchies.",
+      "confidence": 4,
+      "max_cos_sim": 0.28553855419158936
+    },
+    "15": {
+      "label": "Plural nouns",
+      "explanation": "This direction activates on plural nouns, particularly those that appear in lists, enumerations, or contexts where multiple items or entities are being referenced.",
+      "confidence": 4,
+      "max_cos_sim": 0.29361987113952637
+    },
+    "16": {
+      "label": "Legal consequences/punishment",
+      "explanation": "This direction activates when text describes legal punishments, criminal sentences, or official consequences like being jailed, warned by authorities, or admitting to wrongdoing.",
+      "confidence": 4,
+      "max_cos_sim": 0.6426041126251221
+    },
+    "17": {
+      "label": "Hyphenated compound titles",
+      "explanation": "This direction activates on hyphenated compound words or phrases, particularly those describing roles, positions, or technical terms like 'commander-in-chief', 'officer-involved', 'driver-assistance', and 'aerial vehicles'.",
+      "confidence": 4,
+      "max_cos_sim": 0.4578797221183777
+    },
+    "18": {
+      "label": "Adverbs and qualifiers",
+      "explanation": "This direction activates on adverbs, qualifying words, and descriptive modifiers that provide additional context or nuance to statements (like 'clueless', 'widely', 'ideally', 'some').",
+      "confidence": 4,
+      "max_cos_sim": 0.7638751268386841
+    },
+    "19": {
+      "label": "Company/Organization Names",
+      "explanation": "This direction activates strongly when the token represents a company, organization, or institutional entity name being referenced in business, technology, or political contexts.",
+      "confidence": 5,
+      "max_cos_sim": 0.38630592823028564
+    },
+    "20": {
+      "label": "Proper noun continuation",
+      "explanation": "This direction activates when completing or continuing proper nouns, particularly company names, place names, and institutional names that are being split across tokens.",
+      "confidence": 4,
+      "max_cos_sim": 0.5126373171806335
+    },
+    "21": {
+      "label": "Crime reporting language",
+      "explanation": "This direction activates on formal, news-style language used in crime reporting, particularly words like 'allegedly', 'found dead', and other legal/journalistic terminology that appears in police reports and news articles about criminal incidents.",
+      "confidence": 4,
+      "max_cos_sim": 0.3099871873855591
+    },
+    "22": {
+      "label": "Oil and gas industry",
+      "explanation": "This direction activates strongly when text mentions oil and gas companies, drilling, production, or industry-related topics, with the bracketed tokens consistently appearing in contexts discussing petroleum energy sectors.",
+      "confidence": 5,
+      "max_cos_sim": 0.5008647441864014
+    },
+    "23": {
+      "label": "Product/commodity nouns",
+      "explanation": "This direction activates on nouns representing specific products, commodities, or goods that are bought, sold, or consumed in commercial contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.5345139503479004
+    },
+    "24": {
+      "label": "Organizational/institutional names",
+      "explanation": "This direction activates on words that are part of formal organizational, institutional, or proper names, particularly government agencies, conventions, companies, and official bodies.",
+      "confidence": 4,
+      "max_cos_sim": 0.2024896740913391
+    },
+    "25": {
+      "label": "Research/Report Citation",
+      "explanation": "This direction activates when text introduces findings from studies, reports, research, or official documents, typically following the pattern 'a new [report/study/research] shows/found/claims'.",
+      "confidence": 5,
+      "max_cos_sim": 0.479967325925827
+    },
+    "26": {
+      "label": "Past participle verbs",
+      "explanation": "This direction activates on past participle forms of verbs (groping, deploying, ejections, adapted, disbanding, flexion, demolitions, concocted, dispensing) that often describe completed actions or states.",
+      "confidence": 4,
+      "max_cos_sim": 0.5311225056648254
+    },
+    "27": {
+      "label": "Communication/interaction events",
+      "explanation": "This direction activates on words describing various forms of communication, interaction, or exchange between parties, including transactions, conversations, decisions, conferences, emails, and collisions.",
+      "confidence": 4,
+      "max_cos_sim": 0.39276260137557983
+    },
+    "28": {
+      "label": "News article beginnings",
+      "explanation": "This direction activates strongly at the start of news articles, particularly after photo captions or bylines and before the main article text begins.",
+      "confidence": 4,
+      "max_cos_sim": 0.528340756893158
+    },
+    "29": {
+      "label": "Word fragments/partial tokens",
+      "explanation": "This direction activates on incomplete words or word fragments that appear to be cut off mid-token, often at morpheme boundaries or common letter combinations.",
+      "confidence": 4,
+      "max_cos_sim": 0.2785782516002655
+    },
+    "30": {
+      "label": "Collective nouns/groups",
+      "explanation": "This direction activates on words that refer to organized groups, teams, or collective entities of people working together or sharing common interests.",
+      "confidence": 4,
+      "max_cos_sim": 0.3183395564556122
+    },
+    "31": {
+      "label": "Political consideration/deliberation",
+      "explanation": "This direction activates on verbs indicating political actors contemplating, evaluating, or deliberating on policy decisions, actions, or positions.",
+      "confidence": 4,
+      "max_cos_sim": 0.45414847135543823
+    },
+    "32": {
+      "label": "Sports organizations/entities",
+      "explanation": "This direction activates on words referring to sports-related organizations, leagues, teams, or institutional entities within the sports context.",
+      "confidence": 4,
+      "max_cos_sim": 0.5688939094543457
+    },
+    "33": {
+      "label": "Contraction apostrophe",
+      "explanation": "This direction activates on contractions where an apostrophe replaces missing letters, particularly in words like 'didn't', 'he's', 'don't', 'it's', 'we're', and 'we've'.",
+      "confidence": 5,
+      "max_cos_sim": 0.42354002594947815
+    },
+    "34": {
+      "label": "Technical/systemic problems",
+      "explanation": "This direction activates for words describing various types of problems, issues, or negative phenomena across different domains (memory leaks, wrinkles, repression, layouts, agreements, patrols, fantasies, currents, prescriptions).",
+      "confidence": 3,
+      "max_cos_sim": 0.49717116355895996
+    },
+    "35": {
+      "label": "Policy/regulatory measures",
+      "explanation": "This direction activates on words referring to formal policy actions, regulatory measures, or institutional decisions like sanctions, rankings, immunity provisions, strategic operations, and freezes.",
+      "confidence": 4,
+      "max_cos_sim": 0.3155379295349121
+    },
+    "36": {
+      "label": "Recognition/Awards/Honors",
+      "explanation": "This direction activates when text discusses awards, nominations, prizes, honors, or other forms of recognition being given to individuals or entities.",
+      "confidence": 4,
+      "max_cos_sim": 0.2604902982711792
+    },
+    "37": {
+      "label": "Descriptive adjectives/modifiers",
+      "explanation": "This direction activates on adjectives and descriptive words that modify or characterize nouns, including words like 'heavy', 'major', 'dust', 'glands', 'units', 'moves', 'which', 'UK', 'will', and 'chaos'.",
+      "confidence": 3,
+      "max_cos_sim": 0.37732774019241333
+    },
+    "38": {
+      "label": "Investment/Financial Context",
+      "explanation": "This direction activates strongly when the word appears in financial, business, or investment-related contexts, particularly around funding, securities, banking, and economic activities.",
+      "confidence": 4,
+      "max_cos_sim": 0.260618656873703
+    },
+    "39": {
+      "label": "Political/social topics",
+      "explanation": "This direction activates on words that appear in contexts discussing political issues, social movements, government actions, and controversial topics like surveillance, civil rights, and political resistance.",
+      "confidence": 4,
+      "max_cos_sim": 0.40756040811538696
+    },
+    "40": {
+      "label": "Hyphenated compound words",
+      "explanation": "This direction activates on hyphens that connect words to form compound terms, particularly in contexts like 'sky-high', 'Tiger-Cats', 'sun-drenched', and other hyphenated expressions.",
+      "confidence": 4,
+      "max_cos_sim": 0.4771425724029541
+    },
+    "41": {
+      "label": "Media outlet names",
+      "explanation": "This direction activates when media outlet names or publication names appear in brackets, such as TMZ, Variety, Gawker, and network names like CNN.",
+      "confidence": 4,
+      "max_cos_sim": 0.4484388530254364
+    },
+    "42": {
+      "label": "Proper names/surnames",
+      "explanation": "This direction activates on proper names, particularly surnames and last names of people, organizations, and entities being referenced in text.",
+      "confidence": 4,
+      "max_cos_sim": 0.4660469889640808
+    },
+    "43": {
+      "label": "Negative/harmful concepts",
+      "explanation": "This direction activates strongly for words related to harmful, dangerous, or negative concepts like suicide, violence, controversy, and problematic situations.",
+      "confidence": 4,
+      "max_cos_sim": 0.439741849899292
+    },
+    "44": {
+      "label": "metaphorical expressions",
+      "explanation": "This direction activates on common metaphorical phrases and idiomatic expressions like 'tip of the iceberg', 'crown jewel', 'train wreck', 'leap forward', 'wild ride', 'masterpiece', 'tech boom', and 'come true'.",
+      "confidence": 4,
+      "max_cos_sim": 0.33254462480545044
+    },
+    "45": {
+      "label": "Family relationship terms",
+      "explanation": "This direction activates strongly on hyphenated family relationship terms, particularly compound words like 'son-in-law', 'daughter-in-law', and 'step-sister', as well as names with family titles.",
+      "confidence": 4,
+      "max_cos_sim": 0.5442291498184204
+    },
+    "46": {
+      "label": "Political/organizational labels",
+      "explanation": "This direction activates when identifying political parties, organizations, or institutional affiliations that serve as descriptive labels for people or groups.",
+      "confidence": 4,
+      "max_cos_sim": 0.5428497195243835
+    },
+    "47": {
+      "label": "Sports leagues and competitions",
+      "explanation": "This direction activates strongly on mentions of organized sports leagues and competitions, particularly the Premier League, Champions League, and other professional sports contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.3189064860343933
+    },
+    "48": {
+      "label": "Temporal transition markers",
+      "explanation": "This direction activates on words that signal temporal transitions or timing, particularly phrases indicating when something happens for the first time, finally occurs, or marks a specific moment in time.",
+      "confidence": 4,
+      "max_cos_sim": 0.45297569036483765
+    },
+    "49": {
+      "label": "Militant/terrorist groups",
+      "explanation": "This direction activates strongly when referring to extremist organizations like Islamic State, Boko Haram, Hamas, ISIS, and other militant groups in conflict contexts.",
+      "confidence": 5,
+      "max_cos_sim": 0.33974525332450867
+    },
+    "50": {
+      "label": "Modal verbs and auxiliaries",
+      "explanation": "This direction activates on modal verbs (might, has, is) and auxiliary verbs that express possibility, necessity, or ongoing states within complex sentence structures.",
+      "confidence": 4,
+      "max_cos_sim": 0.4440046548843384
+    },
+    "51": {
+      "label": "Text concatenation boundaries",
+      "explanation": "This direction activates at points where two different texts or articles have been concatenated together, often showing abrupt topic changes or formatting inconsistencies at the junction points.",
+      "confidence": 4,
+      "max_cos_sim": 0.40788885951042175
+    },
+    "52": {
+      "label": "Adverbial qualifiers/hedging",
+      "explanation": "This direction activates on adverbs and adverbial phrases that qualify, hedge, or add nuance to statements, often indicating uncertainty, manner, or degree of something being described.",
+      "confidence": 4,
+      "max_cos_sim": 0.2824641168117523
+    },
+    "53": {
+      "label": "Official visits/tours",
+      "explanation": "This direction activates for words related to official visits, tours, or travel by political figures, dignitaries, or public officials.",
+      "confidence": 4,
+      "max_cos_sim": 0.39225420355796814
+    },
+    "54": {
+      "label": "Company/Organization Names",
+      "explanation": "This direction activates on proper nouns that refer to companies, organizations, or business entities, including streaming services, software companies, manufacturers, dealerships, and distributors.",
+      "confidence": 4,
+      "max_cos_sim": 0.35277026891708374
+    },
+    "55": {
+      "label": "Negative descriptors/problems",
+      "explanation": "This direction activates on words that describe negative states, problems, or undesirable conditions like 'overweight', 'obese', 'inaccessible', 'incorrect', and 'unaffordable'.",
+      "confidence": 4,
+      "max_cos_sim": 0.3123176395893097
+    },
+    "56": {
+      "label": "Criminal charges and legal proceedings",
+      "explanation": "This direction activates strongly on text describing criminal charges, legal proceedings, arrests, and formal accusations against individuals or groups.",
+      "confidence": 4,
+      "max_cos_sim": 0.4997278153896332
+    },
+    "57": {
+      "label": "Organizational entities and structures",
+      "explanation": "This direction activates for words that refer to formal organizations, institutions, administrative bodies, or structured groups (trade body, campaign, safety administration, strategy, conspiracy, center, interface).",
+      "confidence": 4,
+      "max_cos_sim": 0.46944811940193176
+    },
+    "58": {
+      "label": "Government positions/titles",
+      "explanation": "This direction activates strongly for formal government positions, political titles, and institutional roles like Secretary, Commissioner, Executive, and official organizations.",
+      "confidence": 4,
+      "max_cos_sim": 0.4696028232574463
+    },
+    "59": {
+      "label": "Group identity/affiliation",
+      "explanation": "This direction activates on words that denote membership in or identification with specific groups, communities, ideologies, or belief systems (tribal, Community, Buddhist, Orthodox, fandom, vegan, Scientology, struggling, fantasy, libertarian).",
+      "confidence": 4,
+      "max_cos_sim": 0.27973878383636475
+    },
+    "60": {
+      "label": "Text transition markers",
+      "explanation": "This direction activates on words that signal transitions between different text sections, topics, or content blocks, often appearing at boundaries where the text shifts context or introduces new information.",
+      "confidence": 4,
+      "max_cos_sim": 0.5963016152381897
+    },
+    "61": {
+      "label": "Law enforcement/security operations",
+      "explanation": "This direction activates on words related to law enforcement, security operations, and investigative/regulatory activities, including terms like 'arbiter', 'drone', 'bouncer', 'team' (SWAT), and 'cyber' in contexts involving policing, military operations, or regulatory enforcement.",
+      "confidence": 4,
+      "max_cos_sim": 0.22916091978549957
+    },
+    "62": {
+      "label": "Negative impact/harm",
+      "explanation": "This direction activates on words describing harmful, damaging, or problematic effects, including physical harm (impair, suppress), dysfunction (handled, dysfunction, meltdown), and negative conditions (acidic, lockdown, odour).",
+      "confidence": 4,
+      "max_cos_sim": 0.3326369822025299
+    },
+    "63": {
+      "label": "Visual representation/depiction",
+      "explanation": "This direction activates for words related to visual representation, depiction, or portrayal of objects, concepts, or entities, including artistic depictions, 3D printing/modeling, and visualization.",
+      "confidence": 4,
+      "max_cos_sim": 0.33598822355270386
+    },
+    "64": {
+      "label": "Negative actors/threats",
+      "explanation": "This direction activates for words referring to criminals, threats, or harmful actors like thieves, terrorists, and other dangerous individuals or situations requiring attention.",
+      "confidence": 4,
+      "max_cos_sim": 0.3195880353450775
+    },
+    "65": {
+      "label": "Punctuation and conjunctions",
+      "explanation": "This direction activates strongly on punctuation marks (commas, hyphens) and common conjunctions like 'and', particularly in contexts where they connect clauses or phrases.",
+      "confidence": 4,
+      "max_cos_sim": 0.4928337335586548
+    },
+    "66": {
+      "label": "Text concatenation boundaries",
+      "explanation": "This direction activates at points where different texts or documents have been concatenated together, often showing abrupt topic changes or formatting inconsistencies that indicate where one piece of content ends and another begins.",
+      "confidence": 4,
+      "max_cos_sim": 0.4587123692035675
+    },
+    "67": {
+      "label": "Formal institutions/ceremonies",
+      "explanation": "This direction activates for words related to formal governmental, legal, religious, or ceremonial institutions and processes, including constitutions, courts, founding ceremonies, and formal engagements.",
+      "confidence": 4,
+      "max_cos_sim": 0.2787780463695526
+    },
+    "68": {
+      "label": "Ordinal numbers/sequences",
+      "explanation": "This direction activates on ordinal numbers and sequential descriptors like 'Half', 'third', 'second', 'Part', indicating numerical ordering or positioning in a sequence.",
+      "confidence": 4,
+      "max_cos_sim": 0.5638304948806763
+    },
+    "69": {
+      "label": "Plural group references",
+      "explanation": "This direction activates on plural nouns referring to groups of people or entities, often in contexts where the author is addressing or discussing collective audiences, stakeholders, or participants.",
+      "confidence": 4,
+      "max_cos_sim": 0.39557844400405884
+    },
+    "70": {
+      "label": "Paired contrasts",
+      "explanation": "This direction activates on words that form contrasting pairs or complementary opposites within the same context, such as 'sea to sea', 'source and destination', 'with flash and without flash', 'breast and prostate', etc.",
+      "confidence": 4,
+      "max_cos_sim": 0.3323751389980316
+    },
+    "71": {
+      "label": "Technology product names",
+      "explanation": "This direction activates strongly on specific technology-related product names, company names, and technical specifications in tech journalism contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.6023829579353333
+    },
+    "72": {
+      "label": "Middle name insertion",
+      "explanation": "This direction activates when middle names or initials are inserted into full names, particularly in formal contexts like news articles and official references.",
+      "confidence": 4,
+      "max_cos_sim": 0.512965202331543
+    },
+    "73": {
+      "label": "Proper nouns and names",
+      "explanation": "This direction activates on proper nouns including place names (Polk, Embassy), people's names (Webb), architectural styles (Gothic), TV shows (Haunted), and other specific named entities across various contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.5793994665145874
+    },
+    "74": {
+      "label": "Major/significant descriptors",
+      "explanation": "This direction activates on adjectives that emphasize the importance, scale, or significance of something, particularly words like 'New', 'Great', 'American', 'Democratic', and 'daily' when they modify important nouns or concepts.",
+      "confidence": 4,
+      "max_cos_sim": 0.4392496645450592
+    },
+    "75": {
+      "label": "Military/Security Operations",
+      "explanation": "This direction activates for words related to military, law enforcement, or security operations, including forces, naval assets, surgical procedures in military contexts, forensic investigations, and diplomatic/geological activities with security implications.",
+      "confidence": 4,
+      "max_cos_sim": 0.3225913643836975
+    },
+    "76": {
+      "label": "Past participle verbs",
+      "explanation": "This direction activates on past participle forms of verbs, particularly those used in passive voice constructions or as adjectives describing states resulting from actions.",
+      "confidence": 4,
+      "max_cos_sim": 0.2565568685531616
+    },
+    "77": {
+      "label": "Institutional/organizational references",
+      "explanation": "This direction activates on tokens that are part of formal institutional names, particularly government departments, international organizations, and official bodies.",
+      "confidence": 4,
+      "max_cos_sim": 0.3403974175453186
+    },
+    "78": {
+      "label": "Communication/explanation verbs",
+      "explanation": "This direction activates on words that introduce explanations, advice, clarifications, or other forms of communication where someone is conveying information to others.",
+      "confidence": 4,
+      "max_cos_sim": 0.2689458727836609
+    },
+    "79": {
+      "label": "Disease/threat names",
+      "explanation": "This direction activates on proper nouns referring to diseases (Zika, Ebola), nationalities associated with geopolitical threats (Korean, Russian), or other entities perceived as threats or concerns in news contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.3895963132381439
+    },
+    "80": {
+      "label": "Past tense verbs",
+      "explanation": "This direction activates on past tense verbs, particularly those describing actions of communication, discovery, or presentation (tipped, hoped, hinted, recognised, presented, planned, asked).",
+      "confidence": 4,
+      "max_cos_sim": 0.5768948793411255
+    },
+    "81": {
+      "label": "Legal proceedings status",
+      "explanation": "This direction activates on words describing the current state or status of legal cases, criminal proceedings, or judicial processes.",
+      "confidence": 4,
+      "max_cos_sim": 0.5482421517372131
+    },
+    "82": {
+      "label": "Geographic locations",
+      "explanation": "This direction activates strongly for proper nouns representing specific geographic locations including cities, towns, states, and regions.",
+      "confidence": 5,
+      "max_cos_sim": 0.4588785767555237
+    },
+    "83": {
+      "label": "Person names in context",
+      "explanation": "This direction activates on tokens that are parts of people's names, particularly surnames or middle names, when they appear in biographical, news, or descriptive contexts about individuals.",
+      "confidence": 4,
+      "max_cos_sim": 0.4632057249546051
+    },
+    "84": {
+      "label": "Negative/Unlikely Adjectives",
+      "explanation": "This direction activates on adjectives that express impossibility, improbability, or negative assessment, such as 'unsurprisingly', 'unthinkable', 'unchecked', 'unimaginable', and similar evaluative terms.",
+      "confidence": 4,
+      "max_cos_sim": 0.2838273048400879
+    },
+    "85": {
+      "label": "Editorial/Meta Commentary",
+      "explanation": "This direction activates on words that signal editorial commentary, disclaimers, corrections, or meta-discussion about the content being presented, often appearing in parenthetical remarks or editorial notes.",
+      "confidence": 4,
+      "max_cos_sim": 0.43684589862823486
+    },
+    "86": {
+      "label": "Parenthetical biographical details",
+      "explanation": "This direction activates on parenthetical clauses or phrases that provide biographical, professional, or descriptive information about a person mentioned in the text.",
+      "confidence": 4,
+      "max_cos_sim": 0.626194179058075
+    },
+    "87": {
+      "label": "Article/content transitions",
+      "explanation": "This direction activates at boundaries between different articles, sections, or content blocks, often marked by line breaks or formatting changes that separate distinct pieces of text.",
+      "confidence": 4,
+      "max_cos_sim": 0.38647228479385376
+    },
+    "88": {
+      "label": "Awards and Recognition",
+      "explanation": "This direction activates for tokens related to awards, prizes, honors, and formal recognition ceremonies across various contexts including peace prizes, film awards, medical procedures, and institutional acknowledgments.",
+      "confidence": 4,
+      "max_cos_sim": 0.3095541000366211
+    },
+    "89": {
+      "label": "Text segment boundaries",
+      "explanation": "This direction activates at points where text transitions between different articles, topics, or content segments, often marking editorial breaks or boundaries between disparate pieces of content.",
+      "confidence": 4,
+      "max_cos_sim": 0.26015177369117737
+    },
+    "90": {
+      "label": "Proper nouns and entities",
+      "explanation": "This direction activates strongly on proper nouns, names, and specific entities including people (Voldemort, Beatles, Raptors), places (Kit, Rankings), and other named entities that serve as key subjects or objects in their respective contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.33659791946411133
+    },
+    "91": {
+      "label": "Word fragments/prefixes",
+      "explanation": "This direction activates on partial words or word fragments, particularly prefixes or beginnings of compound words that are split across tokens.",
+      "confidence": 4,
+      "max_cos_sim": 0.4759228825569153
+    },
+    "92": {
+      "label": "Proper nouns/names",
+      "explanation": "This direction activates strongly on proper nouns, particularly names of people, companies, and organizations that appear in news articles and other text.",
+      "confidence": 4,
+      "max_cos_sim": 0.3530851900577545
+    },
+    "93": {
+      "label": "Apartment/housing references",
+      "explanation": "This direction activates strongly on tokens related to apartments, residential buildings, and housing contexts, including specific apartment complexes and residential locations.",
+      "confidence": 4,
+      "max_cos_sim": 0.29645836353302
+    },
+    "94": {
+      "label": "Past tense verbs",
+      "explanation": "This direction activates on past tense verbs, particularly those describing completed actions or events in news reporting contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.396675705909729
+    },
+    "95": {
+      "label": "Text transition boundaries",
+      "explanation": "This direction activates at points where text abruptly transitions between unrelated topics or documents, often indicating concatenated content or document boundaries.",
+      "confidence": 4,
+      "max_cos_sim": 0.8176339864730835
+    },
+    "96": {
+      "label": "Geographic locations",
+      "explanation": "This direction activates strongly for tokens representing geographic locations including cities, states, countries, and regions.",
+      "confidence": 5,
+      "max_cos_sim": 0.49426788091659546
+    },
+    "97": {
+      "label": "Hyphenated word breaks",
+      "explanation": "This direction activates on hyphens that break words across lines or separate compound words, particularly in formal documents and text formatting contexts.",
+      "confidence": 4,
+      "max_cos_sim": 0.4883561134338379
+    },
+    "98": {
+      "label": "Negative public reaction",
+      "explanation": "This direction activates for words describing negative public responses, criticism, or opposition, including 'backlash', 'outcry', and related terms that indicate public disapproval or controversy.",
+      "confidence": 4,
+      "max_cos_sim": 0.2318350076675415
+    },
+    "99": {
+      "label": "News source attribution",
+      "explanation": "This direction activates when text references or attributes information to news sources, publications, or reports (like BBC, Politico, Forbes, Bloomberg, etc.).",
+      "confidence": 5,
+      "max_cos_sim": 0.5128627419471741
+    }
+  },
+  "sae": {
+    "367": {
+      "label": "Physical transfer/movement",
+      "explanation": "This direction activates when describing the physical transfer, movement, or delivery of objects, people, or substances from one location or state to another.",
+      "confidence": 4
+    },
+    "508": {
+      "label": "Time off/break",
+      "explanation": "This direction activates when text discusses taking time away from work, activities, or responsibilities, including breaks, rest periods, days off, and temporary pauses from regular duties.",
+      "confidence": 4
+    },
+    "985": {
+      "label": "Attribution prepositions",
+      "explanation": "This direction activates on prepositions (primarily 'at', 'in', 'via', 'on') that introduce attribution or source information, typically following an author's name or organization.",
+      "confidence": 4
+    },
+    "1534": {
+      "label": "Political/institutional entities",
+      "explanation": "This direction activates on words referring to political institutions, government bodies, policies, or organizational entities that are subjects of political discourse or criticism.",
+      "confidence": 4
+    },
+    "1819": {
+      "label": "Sentence/paragraph beginnings",
+      "explanation": "This direction activates on the word 'It' when it appears at the start of sentences or paragraphs, particularly in journalistic or formal writing contexts.",
+      "confidence": 4
+    },
+    "2080": {
+      "label": "Proper noun fragments",
+      "explanation": "This direction activates on partial proper nouns or names that are cut off mid-word, typically at syllable boundaries within place names, personal names, or brand names.",
+      "confidence": 4
+    },
+    "2811": {
+      "label": "Preposition in construction/building contexts",
+      "explanation": "This direction activates on prepositions (with, on, the, focusing, of, for, at, in) that appear in contexts describing construction, building, or establishment of physical structures, facilities, or systems.",
+      "confidence": 4
+    },
+    "3375": {
+      "label": "Relative clause introduction",
+      "explanation": "This direction activates on words that introduce relative clauses, particularly 'that' and 'which' clauses that provide additional information about a preceding noun.",
+      "confidence": 4
+    },
+    "3600": {
+      "label": "Projectile targeting preposition",
+      "explanation": "This direction activates on the preposition 'at' when it follows verbs describing projectiles, weapons, or objects being directed toward targets (fired at, thrown at, dropped on, etc.).",
+      "confidence": 5
+    },
+    "3638": {
+      "label": "Programming syntax elements",
+      "explanation": "This direction activates on programming-related syntax elements and formatting constructs like braces, parentheses, spaces, line-breaks, and notation types that are fundamental to code structure and readability.",
+      "confidence": 4
+    },
+    "4028": {
+      "label": "Negation or contradiction",
+      "explanation": "This direction activates on auxiliary verbs and copulas that are part of negative constructions or statements that contradict, qualify, or deny something.",
+      "confidence": 4
+    },
+    "4165": {
+      "label": "Text truncation/continuation",
+      "explanation": "This direction activates at points where text appears to be cut off mid-sentence or mid-word and continues with different content, suggesting boundaries between text segments or where content has been truncated.",
+      "confidence": 4
+    },
+    "4263": {
+      "label": "protest signs and placards",
+      "explanation": "This direction activates when text mentions physical signs, placards, or flyers being held or displayed, typically in protest, demonstration, or advocacy contexts.",
+      "confidence": 5
+    },
+    "5068": {
+      "label": "First person perfect tense",
+      "explanation": "This direction activates on first-person perfect tense constructions (I've/We've/You've + past participle) that indicate completed actions or experiences.",
+      "confidence": 5
+    },
+    "5242": {
+      "label": "Male athlete pronoun reference",
+      "explanation": "This direction activates when the pronoun 'he' or 'his' refers to a male athlete in sports contexts, typically following descriptions of their performance, statistics, or career details.",
+      "confidence": 5
+    },
+    "5372": {
+      "label": "possessive ownership phrases",
+      "explanation": "This direction activates on phrases where 'own' is used to indicate possession or belonging, typically in constructions like 'their own [something]' or 'its own [something]'.",
+      "confidence": 4
+    },
+    "5442": {
+      "label": "Letter/document transmission",
+      "explanation": "This direction activates when describing letters, documents, or written communications being sent, addressed, written, or transmitted between parties.",
+      "confidence": 5
+    },
+    "5705": {
+      "label": "Possessive apostrophe s",
+      "explanation": "This direction activates on possessive forms using apostrophe-s, particularly when the possessive marker appears at token boundaries or in proper nouns.",
+      "confidence": 5
+    },
+    "5873": {
+      "label": "Proper noun suffixes",
+      "explanation": "This direction activates on the final syllables or suffixes of proper nouns, particularly place names and brand names.",
+      "confidence": 4
+    },
+    "5928": {
+      "label": "Text repetition or duplication",
+      "explanation": "This direction activates when text is repeated or duplicated, often appearing in contexts where the same phrase or sentence appears multiple times consecutively.",
+      "confidence": 4
+    },
+    "5960": {
+      "label": "Sentence boundary periods",
+      "explanation": "This direction activates at periods that mark the end of sentences, particularly in contexts where the period concludes a complete thought or statement.",
+      "confidence": 5
+    },
+    "5981": {
+      "label": "Descriptive adjectives",
+      "explanation": "This direction activates on adjective-noun combinations where the adjective provides a descriptive or qualifying characteristic of the noun (proof recipe, facing camera, made items, definition version, grown players, oriented vehicle, worthy items, time donation, grade material).",
+      "confidence": 4
+    },
+    "6001": {
+      "label": "Negative perception/expectation",
+      "explanation": "This direction activates on phrases expressing inability to perceive, find, or expect something, typically in contexts where the speaker cannot see, find, get, or anticipate a particular outcome or item.",
+      "confidence": 4
+    },
+    "6146": {
+      "label": "Quoted attributions",
+      "explanation": "This direction activates on quotation marks that introduce or conclude attributed statements, claims, or reported speech from various sources including officials, organizations, and publications.",
+      "confidence": 4
+    },
+    "6256": {
+      "label": "Software development contributions",
+      "explanation": "This direction activates on words related to software development activities like commits, releases, pull requests, mailing lists, and contributions to open source projects.",
+      "confidence": 4
+    },
+    "6604": {
+      "label": "Location of events/meetings",
+      "explanation": "This direction activates when describing the location where conferences, meetings, summits, rallies, or other events are taking place, typically following prepositions like 'in' or 'at'.",
+      "confidence": 5
+    },
+    "7063": {
+      "label": "Legal proceedings/litigation",
+      "explanation": "This direction activates on references to legal actions, challenges, lawsuits, court proceedings, and other formal legal processes.",
+      "confidence": 5
+    },
+    "7383": {
+      "label": "Political/social commentary",
+      "explanation": "This direction activates on text discussing controversial political, religious, or social issues, often involving criticism, debate, or polarizing viewpoints on topics like religion, politics, LGBT rights, and social justice.",
+      "confidence": 4
+    },
+    "8025": {
+      "label": "Physical positioning/standing",
+      "explanation": "This direction activates when describing someone physically standing in a specific location or position, often in contexts involving public appearances, events, or significant moments.",
+      "confidence": 4
+    },
+    "8478": {
+      "label": "lack of authority/legitimacy",
+      "explanation": "This direction activates when describing someone or something that lacks the proper authority, legitimacy, right, or standing to perform a particular action or hold a particular position.",
+      "confidence": 5
+    },
+    "9003": {
+      "label": "Impersonal subject pronoun",
+      "explanation": "This direction activates on the pronoun 'it' when used as a subject to refer to abstract concepts, situations, or previously mentioned ideas rather than concrete objects.",
+      "confidence": 4
+    },
+    "9460": {
+      "label": "Person identification in news",
+      "explanation": "This direction activates when identifying a person by name followed by a comma and their title, role, or description in news articles or journalistic contexts.",
+      "confidence": 5
+    },
+    "9723": {
+      "label": "Coordinating conjunction transition",
+      "explanation": "This direction activates on the word 'and' when it connects two parallel clauses or phrases, often in contexts describing complex situations with multiple related elements or consequences.",
+      "confidence": 5
+    },
+    "9785": {
+      "label": "Exploration and discovery",
+      "explanation": "This direction activates on words related to exploration, discovery, and investigation activities, particularly in contexts of space exploration, archaeological excavations, and scientific research.",
+      "confidence": 4
+    },
+    "9859": {
+      "label": "Time stamps in posts",
+      "explanation": "This direction activates on time stamps in digital posts, articles, and forum entries, specifically targeting the minutes portion of timestamps (often in formats like HH:MM or similar).",
+      "confidence": 5
+    },
+    "10476": {
+      "label": "Legal enforcement actions",
+      "explanation": "This direction activates on verbs describing formal legal or law enforcement actions taken against individuals, including arrest, conviction, deportation, detention, and firing in official contexts.",
+      "confidence": 5
+    },
+    "10502": {
+      "label": "Political support/favor",
+      "explanation": "This direction activates when text discusses people or groups expressing support, favor, or backing for political positions, policies, candidates, or issues.",
+      "confidence": 5
+    },
+    "10571": {
+      "label": "Official spokesperson names",
+      "explanation": "This direction activates on names of official spokespersons, representatives, or authorities being quoted in news articles, typically appearing after titles like 'spokeswoman', 'lawyer', 'sergeant', or similar official designations.",
+      "confidence": 4
+    },
+    "10582": {
+      "label": "Book title references",
+      "explanation": "This direction activates when the token 'of' appears as part of a book title, typically in constructions like 'Book of [Title]' or when referencing specific books.",
+      "confidence": 4
+    },
+    "10856": {
+      "label": "Name fragments/truncation",
+      "explanation": "This direction activates on partial names or words that appear to be cut off or truncated, often at morpheme boundaries or in the middle of proper nouns.",
+      "confidence": 4
+    },
+    "10951": {
+      "label": "Text formatting/layout breaks",
+      "explanation": "This direction activates at points where there are formatting breaks, line breaks, or transitions between different text sections or content blocks.",
+      "confidence": 4
+    },
+    "11075": {
+      "label": "Food ingredients/components",
+      "explanation": "This direction activates on words that represent specific food ingredients, components, or preparations used in cooking and food preparation contexts.",
+      "confidence": 5
+    },
+    "11107": {
+      "label": "TV network abbreviations",
+      "explanation": "This direction activates on television network abbreviations (FX, CW, ABC, CBS, NBC) when they appear in contexts discussing TV shows, series, and programming decisions.",
+      "confidence": 5
+    },
+    "11197": {
+      "label": "Word completion/continuation",
+      "explanation": "This direction activates when the model is completing or continuing a word that has been partially written, typically where the remaining letters follow the bracketed position.",
+      "confidence": 4
+    },
+    "11298": {
+      "label": "PARSE_ERROR",
+      "explanation": "Looking at these examples, I can see that the direction activates on text fragments that appear to be incomplete or cut off mid-word, often at the end of lines or sections. The bracketed portions show where words are being split or truncated:\n\n- \"End[e]avor\" (Endeavor)\n- \"End[ic]ott\" (Endicott) \n- \"Art[ic]\" (Arctic)\n- \"Gast[ron]omica\" (Gastronomica)\n- \"ART[IFIC]IAL\" (ARTIFICIAL)\n- \"Tao[ise]ach\" (Taoiseach)\n- \"Rut[hen]ian\" (Ruthenian)\n- \"Mark[ie]ff\" (Markieff)\n- \"OFF[IC]IAL\" (OFFICIAL)\n- \"Sand[e]ep\" (Sandeep)\n\nThese appear to be cases where text formatting, line breaks, or parsing has caused words to be split or truncated at unusual positions.\n\n{\"label\": \"Word truncation/splitting\", \"explanation\": \"This direction",
+      "confidence": 0
+    },
+    "11477": {
+      "label": "Anaphoric reference resolution",
+      "explanation": "This direction activates when the model encounters pronouns or demonstrative words (like 'that', 'this') that refer back to previously mentioned concepts or entities in the text.",
+      "confidence": 5
+    },
+    "11783": {
+      "label": "Known for possessive",
+      "explanation": "This direction activates on the phrase 'known for' or 'well known for' followed by a possessive pronoun (his, its, their), indicating fame or recognition for a particular attribute or characteristic.",
+      "confidence": 5
+    },
+    "12309": {
+      "label": "Quantitative margins/differences",
+      "explanation": "This direction activates on words that specify numerical margins, differences, or comparative amounts between competing entities or measurements.",
+      "confidence": 4
+    },
+    "12431": {
+      "label": "Quoted phrases or statements",
+      "explanation": "This direction activates on text that contains quoted phrases, statements, or expressions, typically marked by quotation marks and often representing controversial, political, or notable statements.",
+      "confidence": 4
+    },
+    "12489": {
+      "label": "Improve/Enhancement Context",
+      "explanation": "This direction activates when the word 'improve' or related enhancement concepts appear, typically followed by possessive pronouns or articles indicating what is being improved (their looks, the situation, your figure, our performance, etc.).",
+      "confidence": 5
+    },
+    "12592": {
+      "label": "Proper noun fragments",
+      "explanation": "This direction activates on fragments or partial words within proper nouns, particularly names of places, people, and organizations where the bracketed portion completes a recognizable proper noun.",
+      "confidence": 4
+    },
+    "12736": {
+      "label": "Brand/Organization Names",
+      "explanation": "This direction activates on proper nouns that are names of brands, companies, organizations, or institutional entities appearing in brackets within text.",
+      "confidence": 4
+    },
+    "12972": {
+      "label": "Acronym definitions",
+      "explanation": "This direction activates when an acronym or abbreviation is followed by its full definition or expansion in parentheses.",
+      "confidence": 5
+    },
+    "13090": {
+      "label": "automotive mechanical components",
+      "explanation": "This direction activates on words related to car parts and mechanical systems like steering, throttle, suspension, engine, and transmission components.",
+      "confidence": 5
+    },
+    "13273": {
+      "label": "City name abbreviation",
+      "explanation": "This direction activates when encountering abbreviated city names in news datelines, specifically 'SAN [FR]ANCISCO' and 'LOS [ANGEL]ES' where the bracketed portion completes the city name.",
+      "confidence": 5
+    },
+    "13593": {
+      "label": "Historical/cultural context",
+      "explanation": "This direction activates when 'the' precedes words that establish historical, cultural, or geographical context in academic or encyclopedic writing, particularly relating to ancient civilizations, dynasties, religions, and historical periods.",
+      "confidence": 4
+    },
+    "13677": {
+      "label": "Death toll numbers",
+      "explanation": "This direction activates on numerical values representing the number of people killed in violent attacks, disasters, or conflicts.",
+      "confidence": 5
+    },
+    "13746": {
+      "label": "Actor casting attribution",
+      "explanation": "This direction activates when describing which actor plays or portrays a specific character in movies, TV shows, or other media.",
+      "confidence": 5
+    },
+    "14963": {
+      "label": "buying/purchasing objects",
+      "explanation": "This direction activates when the text describes someone buying or purchasing a physical object, typically preceded by the article 'a'.",
+      "confidence": 5
+    },
+    "14988": {
+      "label": "Control interface elements",
+      "explanation": "This direction activates on text describing user interface controls, input methods, and interactive elements like buttons, keys, knobs, and control mechanisms.",
+      "confidence": 4
+    },
+    "15135": {
+      "label": "Nationality/ethnicity lists",
+      "explanation": "This direction activates on commas that separate items in lists of nationalities, ethnicities, or geographical/cultural identifiers.",
+      "confidence": 5
+    },
+    "15361": {
+      "label": "Emphatic affirmation",
+      "explanation": "This direction activates on phrases expressing strong agreement, belief, or affirmation, often with emphatic language like 'I really do', 'I truly do', or similar constructions that reinforce the speaker's conviction.",
+      "confidence": 4
+    },
+    "16317": {
+      "label": "Date/location specification",
+      "explanation": "This direction activates when specifying a date following a location, typically in news reporting contexts where events are being described with temporal and spatial details.",
+      "confidence": 4
+    },
+    "16606": {
+      "label": "Alternative names/aliases",
+      "explanation": "This direction activates when text introduces alternative names, aliases, or different ways something is known or referred to, typically using phrases like 'goes by', 'a.k.a.', 'pronounced', or 'also known as'.",
+      "confidence": 5
+    },
+    "16773": {
+      "label": "Article cross-references",
+      "explanation": "This direction activates on bracketed cross-references or related article links that redirect readers to other content within the same publication or website.",
+      "confidence": 5
+    },
+    "17831": {
+      "label": "Adverbs and intensifiers",
+      "explanation": "This direction activates on adverbs and intensifying words that modify or strengthen the meaning of verbs and adjectives, such as 'sure', 'certainly', 'rarely', and other modifying terms.",
+      "confidence": 4
+    },
+    "17938": {
+      "label": "temporal reference day",
+      "explanation": "This direction activates when referring to a specific day in relation to when an event occurred, often using phrases like 'the day' followed by temporal context about when something happened.",
+      "confidence": 4
+    },
+    "18200": {
+      "label": "Potential negative outcomes",
+      "explanation": "This direction activates on words describing possible adverse consequences, problems, or undesirable future events that could occur.",
+      "confidence": 4
+    },
+    "18601": {
+      "label": "Metadata field separator",
+      "explanation": "This direction activates on colons that separate metadata field names from their values in structured information like game details, event information, product specifications, and other formatted data.",
+      "confidence": 5
+    },
+    "18667": {
+      "label": "Direct quote introduction",
+      "explanation": "This direction activates when introducing direct quotes or reported speech, typically following phrases like 'said:', 'told us:', or 'reportedly replied:' that precede quoted material.",
+      "confidence": 5
+    },
+    "18816": {
+      "label": "temporal comparisons",
+      "explanation": "This direction activates when describing measurements, statistics, or values in relation to specific time periods, often indicating when something was last observed at a particular level or comparing current data to historical timeframes.",
+      "confidence": 4
+    },
+    "18872": {
+      "label": "Organizational function description",
+      "explanation": "This direction activates when describing the role, function, or responsibility of an organization, agency, or institutional unit.",
+      "confidence": 4
+    },
+    "18934": {
+      "label": "Organizational entities",
+      "explanation": "This direction activates when referring to formal organizations, agencies, or institutions (government agencies, corporations, advocacy groups) that are being discussed as entities taking actions or being acted upon.",
+      "confidence": 4
+    },
+    "19216": {
+      "label": "City name abbreviations",
+      "explanation": "This direction activates on abbreviated city names, particularly 'VANCOUVER' and 'LAS VEGAS' appearing in news article datelines or location headers.",
+      "confidence": 4
+    },
+    "19254": {
+      "label": "Measurement units",
+      "explanation": "This direction activates when measurement units (hours, feet, metres, inches, mile, foot, block, ounce) appear in contexts describing quantities, distances, or durations.",
+      "confidence": 5
+    },
+    "19327": {
+      "label": "desire/intention expression",
+      "explanation": "This direction activates on the phrase 'to' when it follows expressions of wanting, desiring, or intending to do something, typically in the pattern 'want to' or similar constructions expressing volition.",
+      "confidence": 5
+    },
+    "19429": {
+      "label": "Past tense verbs",
+      "explanation": "This direction activates on past tense verbs, particularly those that appear after proper nouns or names in narrative or reporting contexts.",
+      "confidence": 4
+    },
+    "19604": {
+      "label": "Plural nouns",
+      "explanation": "This direction activates on plural nouns across various contexts, including moves, casts, looks, takes, presents, keeps, falls, starts, drives, and plays.",
+      "confidence": 5
+    },
+    "19660": {
+      "label": "Abbreviated names/acronyms",
+      "explanation": "This direction activates on abbreviated forms of names, organizations, or titles, particularly when they appear in brackets or are part of shortened references like 'LWN', 'L. Ron', 'Lloyds', 'Lil Uzi', etc.",
+      "confidence": 4
+    },
+    "19922": {
+      "label": "Names ending in 'od'",
+      "explanation": "This direction activates on names or words that contain the letter sequence 'od', particularly names like Bodhi, Bodene, Bodin, Bodmin, and Bodine.",
+      "confidence": 4
+    },
+    "20063": {
+      "label": "Physics/astronomy terms",
+      "explanation": "This direction activates on scientific terminology related to physics and astronomy, particularly particle physics and cosmology concepts like bosons, black holes, supernovas, dark matter, and neutrinos.",
+      "confidence": 5
+    },
+    "20131": {
+      "label": "reaching milestones/thresholds",
+      "explanation": "This direction activates when text describes reaching significant numerical milestones, achievement levels, or critical thresholds (like critical threat levels, boiling point, age milestones, download counts, issue numbers, etc.).",
+      "confidence": 4
+    },
+    "20179": {
+      "label": "Descriptive adjectives",
+      "explanation": "This direction activates on adjectives that describe properties, characteristics, or qualities of nouns, particularly when they appear in descriptive or evaluative contexts.",
+      "confidence": 4
+    },
+    "20201": {
+      "label": "Company names in lists",
+      "explanation": "This direction activates on company or brand names that appear within lists or enumerations of multiple organizations, typically in contexts discussing business, technology, or industry comparisons.",
+      "confidence": 5
+    },
+    "20225": {
+      "label": "Introducing specific examples",
+      "explanation": "This direction activates when introducing a specific example, instance, or particular case that illustrates or supports a broader point being made.",
+      "confidence": 4
+    },
+    "20444": {
+      "label": "Imperative call to action",
+      "explanation": "This direction activates on imperative phrases that encourage the reader to take immediate action, often using words like 'and', 'while', 'before', or 'if' to connect the action to a benefit or urgency.",
+      "confidence": 4
+    },
+    "20802": {
+      "label": "Coordinating conjunction continuation",
+      "explanation": "This direction activates on coordinating conjunctions (primarily 'and' and 'or') that continue or extend lists, clauses, or ideas within longer sentences or passages.",
+      "confidence": 5
+    },
+    "21261": {
+      "label": "temporal/descriptive modifiers",
+      "explanation": "This direction activates on words that provide temporal, descriptive, or qualifying information that modifies or specifies the main content, often appearing in parenthetical or explanatory contexts.",
+      "confidence": 3
+    },
+    "21281": {
+      "label": "Physical accompaniment or possession",
+      "explanation": "This direction activates when describing someone or something being physically accompanied by, carrying, or in possession of another person or object, typically using the preposition 'with'.",
+      "confidence": 4
+    },
+    "22030": {
+      "label": "Object/item reference",
+      "explanation": "This direction activates when referring to specific objects, items, or entities that are being discussed, described, or mentioned in context.",
+      "confidence": 3
+    },
+    "22064": {
+      "label": "Descriptive adjectives",
+      "explanation": "This direction activates on descriptive adjectives that modify nouns, particularly those that convey texture, quality, or sensory characteristics like 'shimmery', 'choppy', 'lavishly', 'corrosive', and 'hilly'.",
+      "confidence": 4
+    },
+    "22188": {
+      "label": "Passive voice verbs",
+      "explanation": "This direction activates on past participles used in passive voice constructions, where the subject receives the action rather than performing it.",
+      "confidence": 5
+    },
+    "22364": {
+      "label": "Food ingredients/items",
+      "explanation": "This direction activates on food-related words including vegetables (celery, leeks), fruits (cranberry, pomegranate, fig), nuts (pine nuts), seafood (clams), herbs, and other culinary ingredients.",
+      "confidence": 4
+    },
+    "23149": {
+      "label": "Name followed by comma",
+      "explanation": "This direction activates when a proper name (typically a person's name) is immediately followed by a comma, often in contexts like news articles, biographical information, or formal writing where the name is being introduced or referenced.",
+      "confidence": 5
+    },
+    "23341": {
+      "label": "charitable/fundraising purposes",
+      "explanation": "This direction activates when text mentions fundraising, donations, or charitable activities, typically following prepositions like 'for' or 'to' that indicate the beneficiary or purpose of the fundraising effort.",
+      "confidence": 4
+    },
+    "23734": {
+      "label": "Article paragraph breaks",
+      "explanation": "This direction activates at line breaks or paragraph boundaries in news articles and journalistic content, marking transitions between paragraphs or sections.",
+      "confidence": 4
+    },
+    "23778": {
+      "label": "Numbered list items",
+      "explanation": "This direction activates on tokens that appear in numbered or ranked lists, particularly numbers, dashes, and dollar signs that serve as separators or indicators in sequential orderings.",
+      "confidence": 4
+    },
+    "23838": {
+      "label": "List continuation punctuation",
+      "explanation": "This direction activates on punctuation marks (commas, periods, question marks) that appear at the end of list items or clauses within longer enumerations or complex sentences.",
+      "confidence": 4
+    },
+    "23998": {
+      "label": "News reporting context",
+      "explanation": "This direction activates on words that appear in news articles or journalistic content, particularly at transition points or key moments in news stories.",
+      "confidence": 4
+    },
+    "24572": {
+      "label": "Descriptive modifiers",
+      "explanation": "This direction activates on words that modify or describe nouns with qualitative, quantitative, or relational attributes, often functioning as adjectives or adverbs that add descriptive detail.",
+      "confidence": 4
+    }
+  }
+}

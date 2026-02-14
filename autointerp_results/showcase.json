@@ -1,0 +1,84 @@
+{
+  "novel_top_components": [
+    {
+      "component": 7,
+      "label": "Descriptive adjectives",
+      "explanation": "This direction activates on adjectives that describe visual, temporal, or qualitative properties of nouns, including lighting (fluorescent, neon, LED), temporal aspects (intermittent, hourly, rapid), and other descriptive qualities (heated, menstrual).",
+      "confidence": 4,
+      "detection_acc": 1.0,
+      "max_cos_sim": 0.28087323904037476
+    },
+    {
+      "component": 67,
+      "label": "Formal institutions/ceremonies",
+      "explanation": "This direction activates for words related to formal governmental, legal, religious, or ceremonial institutions and processes, including constitutions, courts, founding ceremonies, and formal engagements.",
+      "confidence": 4,
+      "detection_acc": 1.0,
+      "max_cos_sim": 0.2787780463695526
+    },
+    {
+      "component": 3,
+      "label": "Public controversy/outrage",
+      "explanation": "This direction activates for words describing public disputes, scandals, or situations that provoke strong negative reactions from communities or society.",
+      "confidence": 5,
+      "detection_acc": 0.9333333333333333,
+      "max_cos_sim": 0.273082435131073
+    },
+    {
+      "component": 14,
+      "label": "Academic/Professional Status",
+      "explanation": "This direction activates for words describing academic levels (freshman, junior, undergraduate), professional roles (trainee, adjunct), or status descriptors (Democratic, name) that classify or categorize people within institutional hierarchies.",
+      "confidence": 4,
+      "detection_acc": 0.85,
+      "max_cos_sim": 0.28553855419158936
+    },
+    {
+      "component": 24,
+      "label": "Organizational/institutional names",
+      "explanation": "This direction activates on words that are part of formal organizational, institutional, or proper names, particularly government agencies, conventions, companies, and official bodies.",
+      "confidence": 4,
+      "detection_acc": 0.8333333333333333,
+      "max_cos_sim": 0.2024896740913391
+    },
+    {
+      "component": 59,
+      "label": "Group identity/affiliation",
+      "explanation": "This direction activates on words that denote membership in or identification with specific groups, communities, ideologies, or belief systems (tribal, Community, Buddhist, Orthodox, fandom, vegan, Scientology, struggling, fantasy, libertarian).",
+      "confidence": 4,
+      "detection_acc": 0.8166666666666667,
+      "max_cos_sim": 0.27973878383636475
+    },
+    {
+      "component": 78,
+      "label": "Communication/explanation verbs",
+      "explanation": "This direction activates on words that introduce explanations, advice, clarifications, or other forms of communication where someone is conveying information to others.",
+      "confidence": 4,
+      "detection_acc": 0.8166666666666667,
+      "max_cos_sim": 0.2689458727836609
+    },
+    {
+      "component": 38,
+      "label": "Investment/Financial Context",
+      "explanation": "This direction activates strongly when the word appears in financial, business, or investment-related contexts, particularly around funding, securities, banking, and economic activities.",
+      "confidence": 4,
+      "detection_acc": 0.7166666666666667,
+      "max_cos_sim": 0.260618656873703
+    },
+    {
+      "component": 15,
+      "label": "Plural nouns",
+      "explanation": "This direction activates on plural nouns, particularly those that appear in lists, enumerations, or contexts where multiple items or entities are being referenced.",
+      "confidence": 4,
+      "detection_acc": 0.7,
+      "max_cos_sim": 0.29361987113952637
+    },
+    {
+      "component": 36,
+      "label": "Recognition/Awards/Honors",
+      "explanation": "This direction activates when text discusses awards, nominations, prizes, honors, or other forms of recognition being given to individuals or entities.",
+      "confidence": 4,
+      "detection_acc": 0.7,
+      "max_cos_sim": 0.2604902982711792
+    }
+  ]
+}

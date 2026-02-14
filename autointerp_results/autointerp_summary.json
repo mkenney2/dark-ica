@@ -1,0 +1,30 @@
+{
+  "table1": {
+    "ica": {
+      "mean_confidence": 4.07,
+      "median_confidence": 4.0,
+      "mean_detection_acc": 0.7339999999999999,
+      "frac_confidence_gte_3": 1.0,
+      "frac_acc_gt_0.7": 0.6
+    },
+    "sae": {
+      "mean_confidence": 4.373737373737374,
+      "median_confidence": 4.0,
+      "mean_detection_acc": 0.8422558922558921,
+      "frac_confidence_gte_3": 1.0,
+      "frac_acc_gt_0.7": 0.7474747474747475
+    }
+  },
+  "table2": {
+    "novel": {
+      "n": 19,
+      "mean_detection_acc": 0.7131578947368421,
+      "mean_confidence": 4.052631578947368
+    },
+    "overlapping": {
+      "n": 81,
+      "mean_detection_acc": 0.7388888888888889,
+      "mean_confidence": 4.074074074074074
+    }
+  }
+}
