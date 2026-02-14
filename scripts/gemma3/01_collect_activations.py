@@ -83,7 +83,7 @@ def collect_activations(cfg, reuse_from=None):
 
     # Load dataset
     from datasets import load_dataset
-    dataset = load_dataset("Skylion007/openwebtext", split="train", streaming=True, trust_remote_code=True)
+    dataset = load_dataset("Skylion007/openwebtext", split="train", streaming=True)
 
     tokenizer = model.tokenizer
     if tokenizer.pad_token is None:

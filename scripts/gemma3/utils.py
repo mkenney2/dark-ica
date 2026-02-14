@@ -6,6 +6,10 @@ import numpy as np
 import torch
 from typing import Optional
 
+# Point HuggingFace cache to the volume so it persists and doesn't fill container disk
+if os.path.isdir("/workspace") and "HF_HOME" not in os.environ:
+    os.environ["HF_HOME"] = "/workspace/.cache/huggingface"
+
 from config import ExperimentConfig
 
 
