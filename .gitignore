@@ -13,8 +13,8 @@ venv/
 *.bin
 *.safetensors
 
-# Experiment outputs (generated, not tracked)
-experiments/
+# Experiment data: track results (JSON, plots) but not large arrays
+# *.npy rule above already covers the large files
 
 # OS
 .DS_Store
