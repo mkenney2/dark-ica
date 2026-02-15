@@ -1,0 +1,24 @@
+{
+  "experiment": "gemma3_1b_16k",
+  "tokens_analyzed": 1003808,
+  "d_model": 1152,
+  "variance_analysis": {
+    "total_activation_variance": 3945667.25,
+    "residual_variance": 476995.5625,
+    "fraction_unexplained_by_sae": 0.12089097499847412
+  },
+  "residual_kurtosis": {
+    "mean": 0.37423262000083923,
+    "std": 0.3672741651535034,
+    "min": 0.03308725357055664,
+    "max": 1.7097301483154297,
+    "dims_gt_1": 126,
+    "dims_gt_3": 0
+  },
+  "pca": {
+    "n_components_90pct": 301,
+    "n_components_95pct": 301,
+    "n_components_99pct": 301,
+    "recommended_n_ica": 200
+  }
+}

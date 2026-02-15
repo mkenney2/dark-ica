@@ -1,0 +1,10 @@
+{
+  "experiment": "gemma3_1b_262k",
+  "sae_width": 262144,
+  "n_ica_components": 200,
+  "mean_max_cosine": 0.22683967649936676,
+  "median_max_cosine": 0.20757251977920532,
+  "high_similarity_gt_0.8": 0,
+  "medium_similarity_0.3_to_0.8": 14,
+  "low_similarity_lt_0.3": 186
+}

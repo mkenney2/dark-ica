@@ -1,0 +1,30 @@
+{
+  "experiment": "gemma3_1b_16k",
+  "n_components": 200,
+  "pca_variance_captured": 0.397420506874376,
+  "ica_iterations": 370,
+  "ica_frac_residual_variance_explained": 0.024307072162628174,
+  "robustness": [
+    {
+      "seed_a": 42,
+      "seed_b": 123,
+      "mean_best_match": 0.4898304045200348,
+      "min_best_match": 0.20569132268428802,
+      "n_above_0.9": 33
+    },
+    {
+      "seed_a": 42,
+      "seed_b": 999,
+      "mean_best_match": 0.47918465733528137,
+      "min_best_match": 0.18441241979599,
+      "n_above_0.9": 29
+    },
+    {
+      "seed_a": 123,
+      "seed_b": 999,
+      "mean_best_match": 0.48104894161224365,
+      "min_best_match": 0.18356288969516754,
+      "n_above_0.9": 36
+    }
+  ]
+}
